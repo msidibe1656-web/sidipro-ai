@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071426">
+  <meta name="description" content="SIDIPRO AI accompagne les utilisateurs en Afrique pour la traduction, la configuration et le dépannage des smartphones.">
+  <title>SIDIPRO AI — Assistant numérique pour l'Afrique</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">S</span><span>SIDIPRO <small>AI</small><em>BY MAHAMADOU SIDIBÉ</em></span></a>
+  <button class="menu-btn" id="menuBtn" aria-label="Ouvrir le menu">☰</button>
+  <nav id="nav">
+    <a href="#outils">Nos outils</a><a href="#assistant">Assistant IA</a><a href="#formations">Formations</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <p class="eyebrow">LA TECHNOLOGIE À VOTRE PORTÉE</p>
+      <h1>Votre assistant numérique pour <span>l'Afrique.</span></h1>
+      <p class="lead">Traduction, aide smartphone et accompagnement numérique : SIDIPRO vous guide simplement, étape par étape.</p>
+      <div class="hero-actions"><a class="btn primary" href="#assistant">Parler à SIDIPRO AI</a><a class="btn secondary" href="#outils">Découvrir les services</a></div>
+      <p class="small-note">Pensé pour le Mali et l'ensemble de l'Afrique.</p>
+    </div>
+    <div class="hero-panel">
+      <div class="panel-top"><span class="pulse"></span> SIDIPRO AI <span class="online">ASSISTANT</span></div>
+      <div class="chat-preview">
+        <div class="bubble bot">Bonjour ! Quel problème rencontrez-vous avec votre téléphone ?</div>
+        <div class="bubble user">Je n'arrive pas à installer WhatsApp.</div>
+        <div class="bubble bot">Je peux vous guider. Quel est le modèle de votre téléphone ?</div>
+      </div>
+      <div class="panel-foot">Une aide claire, dans un langage simple.</div>
+    </div>
+  </section>
+
+  <section class="section" id="outils">
+    <div class="section-head"><p class="eyebrow">NOS SERVICES</p><h2>Que souhaitez-vous faire ?</h2><p>Choisissez un service ou décrivez directement votre besoin à l'assistant.</p></div>
+    <div class="services">
+      <button class="service-card" data-prompt="Aide-moi à traduire un texte du Bambara vers le Français."><span>文</span><h3>Traduction</h3><p>Bambara ↔ Français, avec explication du sens.</p><b>Demander de l'aide →</b></button>
+      <button class="service-card" data-prompt="Aide-moi à résoudre un problème sur mon téléphone Android ou iPhone."><span>▣</span><h3>Assistance smartphone</h3><p>Réglages, stockage, batterie, connexion et dépannage.</p><b>Diagnostiquer →</b></button>
+      <button class="service-card" data-prompt="Guide-moi pour installer une application sur mon téléphone."><span>↓</span><h3>Applications</h3><p>Installation, mise à jour et erreurs d'applications.</p><b>Installer une application →</b></button>
+      <button class="service-card" data-prompt="Guide-moi pour créer ou configurer un compte Google, Apple ou WhatsApp."><span>◎</span><h3>Création de comptes</h3><p>Google, Apple, WhatsApp, TikTok et autres comptes.</p><b>Configurer un compte →</b></button>
+      <button class="service-card" data-prompt="Mon téléphone affiche une erreur. Aide-moi à comprendre et résoudre le problème."><span>⚙</span><h3>Résoudre un problème</h3><p>Erreurs, lenteurs, blocages et problèmes de connexion.</p><b>Trouver une solution →</b></button>
+      <a class="service-card" href="#formations"><span>▤</span><h3>Formations</h3><p>Apprendre à mieux utiliser son smartphone.</p><b>Voir les formations →</b></a>
+    </div>
+  </section>
+
+  <section class="assistant-section" id="assistant">
+    <div class="assistant-intro"><p class="eyebrow">VOTRE AIDE NUMÉRIQUE</p><h2>Discutez avec <span>SIDIPRO AI</span></h2><p>Décrivez votre problème en français. L'assistant vous proposera des étapes adaptées. La traduction Bambara sera activée après intégration et validation du moteur linguistique.</p>
+      <ul><li>Android et iPhone</li><li>Explications étape par étape</li><li>Conseils de sécurité</li></ul>
+    </div>
+    <div class="chatbox">
+      <div class="chat-head"><div class="avatar">S</div><div><strong>SIDIPRO AI</strong><small>Assistant numérique</small></div><span class="status">Prêt</span></div>
+      <div class="messages" id="messages" aria-live="polite"><div class="msg assistant">Bonjour ! Je suis SIDIPRO AI. Explique-moi ce que tu souhaites faire ou le problème rencontré. Indique aussi la marque et le modèle de ton téléphone si possible.</div></div>
+      <div class="quick-prompts"><button data-prompt="Je veux installer WhatsApp.">Installer WhatsApp</button><button data-prompt="Je veux créer un compte Google.">Créer un compte Google</button><button data-prompt="Mon téléphone est lent.">Téléphone lent</button></div>
+      <form id="chatForm"><textarea id="userInput" rows="2" placeholder="Écris ton message ici..." required></textarea><button class="send" type="submit" aria-label="Envoyer">➤</button></form>
+      <p class="chat-disclaimer">Ne partage jamais ton mot de passe, ton code SMS ou ton code de vérification.</p>
+    </div>
+  </section>
+
+  <section class="section" id="formations">
+    <div class="section-head"><p class="eyebrow">APPRENDRE ET PROGRESSER</p><h2>Formations numériques</h2><p>Des cours pratiques pour mieux maîtriser votre téléphone.</p></div>
+    <div class="training">
+      <div><span class="tag">FORMATION VIDÉO</span><h3>Configuration smartphone et WhatsApp Business</h3><p>Des explications pratiques pour apprendre à configurer et utiliser les fonctions essentielles de votre smartphone.</p><strong>10 000 FCFA</strong></div>
+      <a class="btn primary" href="https://aqzhvtap.mychariow.com/" target="_blank" rel="noopener">Voir la boutique de formations</a>
+    </div>
+  </section>
+
+  <section class="contact" id="contact"><p class="eyebrow">RESTONS EN CONTACT</p><h2>Besoin d'une assistance personnalisée ?</h2><p>Pour une intervention humaine, contactez le technicien.</p><a class="btn primary" href="https://wa.me/22375610610" target="_blank" rel="noopener">Contacter sur WhatsApp</a><p class="small-note">Service proposé par MAHAMADOU SIDIBÉ · Mali</p></section>
+</main>
+<footer><span>© <span id="year"></span> SIDIPRO AI</span><span>BY MAHAMADOU SIDIBÉ</span></footer>
+<script src="/script.js"></script>
+</body>
+</html>
